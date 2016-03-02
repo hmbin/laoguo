@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    background-color: #fff;
 }
 
 .bg-dark {
@@ -65,7 +65,9 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
+    border-top: 1.5px solid #000;
+    background-color: #fff;
 }
 
 aside {
@@ -140,7 +142,6 @@ aside {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #fff;
     }
 
     .navbar-default.affix {
@@ -209,7 +210,7 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     header {
-        min-height: 30%;
+        min-height: 35%;
     }
 
     header .header-content {
@@ -490,4 +491,35 @@ body {
 .hr_custom p{
     font: 12px Helvetica,Arial,sans-serif;
     color: #999;
+}
+.navbar-logo {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/logo2.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    width: 180px;
+    height: 50px;
+}
+.font-black h1{
+    color: #000;
+}
+.font-black h2{
+    color: #000;
+    font-size: 45px;
+}
+.font-black p{
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.bg-primary .font-orange{
+    color: red;
+    margin-bottom: 0;
+}
+.mrg-top-30 {
+    margin-top: 30px;
 }
